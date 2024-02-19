@@ -6,8 +6,21 @@ import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { BottomLine, MySkill, Education } from "../../components";
 import { FaDownload } from "react-icons/fa";
+const PdfUrl = "/Arbab-Mustafa_resume.pdf";
 
 const About = () => {
+  const Downloadfile = (url) => {
+    const fileName = url.split("/").pop();
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", fileName);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  };
+  const handleDownload = () => {
+    Downloadfile(PdfUrl);
+  };
   return (
     <div className="parent pt-16 my-16">
       <div className="">
@@ -105,19 +118,15 @@ const About = () => {
                 <span className="mr-2 text-primary">Address : </span>
                 Islamabad, Pakistan
               </h2>
-              <a
-                href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
-                target="blank"
-              >
-                <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
-                  <button className="primary-button">
-                    <span>My Resume</span>
-                    <span>
-                      <FaDownload />
-                    </span>
-                  </button>
-                </div>
-              </a>
+
+              <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
+                <button className="primary-button" onClick={handleDownload}>
+                  <span>Download Resume</span>
+                  <span>
+                    <FaDownload />
+                  </span>
+                </button>
+              </div>
             </div>
           </motion.div>
         </div>

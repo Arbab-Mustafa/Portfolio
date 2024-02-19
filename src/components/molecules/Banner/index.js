@@ -32,7 +32,7 @@ const Banner = () => {
     },
   };
   return (
-    <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center justify-between">
+    <div className="parent min-h-[100vh] flex flex-col-reverse lg:flex-row items-center sm:justify-center justify-between">
       <motion.div
         initial={{ x: "-100vw" }}
         animate={{ x: 0 }}

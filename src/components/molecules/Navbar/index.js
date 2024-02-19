@@ -139,18 +139,15 @@ export default function Navbar() {
                   </li>
                 ))}
                 <li className="text-center m-4">
-                  <a
-                    className="inline-block w-full"
-                    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
-                    target="blank"
+                  <button
+                    className="primary-button w-full text-white"
+                    onClick={handleDownload}
                   >
-                    <button className="primary-button w-full text-white">
-                      <span>Resume</span>
-                      <span>
-                        <FaDownload />
-                      </span>
-                    </button>
-                  </a>
+                    <span>Resume</span>
+                    <span>
+                      <FaDownload />
+                    </span>
+                  </button>
                 </li>
               </ul>
               <div className="text-center">
