@@ -152,8 +152,7 @@ export default function Navbar() {
               </ul>
               <div className="text-center">
                 <p className="text-neutral">
-                  &copy; Copyright 2024, Gilbert Arbab Mustafa. All Rights
-                  Reserved
+                  &copy; Copyright 2024, Arbab Mustafa. All Rights Reserved
                 </p>
               </div>
             </Drawer>
