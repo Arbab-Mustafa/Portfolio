@@ -11,6 +11,7 @@ import {
 
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import { Analytics } from "@vercel/analytics/react";
 const Home = React.lazy(() => import("./pages/Home"));
 const Project = React.lazy(() => import("./pages/Project"));
 
@@ -33,7 +34,9 @@ function App() {
           <Route path="*" element={<Navigate replace to="/404" />}></Route>
         </Routes>
       </Suspense>
+
       {isFalse || <Footer />}
+      <Analytics />
     </>
   );
 }
