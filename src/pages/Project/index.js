@@ -120,7 +120,7 @@ const Project = () => {
                   <img
                     className="rounded-lg h-full w-full"
                     src={item.mainImage}
-                    alt={item.title || "Item Image"}
+                    alt={item.title || "arbab mustafa"}
                   />
                   <div className="overlay">
                     <h3 className="text-2xl text-primary font-semibold">

@@ -39,7 +39,7 @@ const About = () => {
           </h1>
           <BottomLine />
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-20">
           <motion.div
             initial={{ x: -200, opacity: 0 }}
             animate={{
@@ -50,9 +50,9 @@ const About = () => {
           >
             <img
               src="/pic1.png"
-              alt="Gilbert Hutapea"
+              alt="Arbab Mustafa"
               className="p-12 w-70 h-70 transform translate-y-[-12%]"
-              title="Gilbert Hutapea"
+              title="Arbab Mustafa"
             />
           </motion.div>
           <motion.div
@@ -67,9 +67,10 @@ const About = () => {
             <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">
               Arbab Mustafa
             </h1>
+
             <div className="my-8">
               <TypeAnimation
-                className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
+                className="text-2xl text-primary my-4    font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
                 cursor={true}
                 sequence={[
                   "Software Enginnering Student",
@@ -83,7 +84,7 @@ const About = () => {
                 repeat={Infinity}
               />
             </div>
-            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+            <p className="text-neutral font-medium text-center  translate-y-[-60%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
               As a Frontend React Developer, my dedication lies in crafting
               high-quality web applications that precisely meet the requirements
               of my clients. With 2 years of hands-on experience in web
@@ -93,8 +94,8 @@ const About = () => {
               project I undertake exceeds expectations and achieves optimal
               results
             </p>
-            <br />
-            <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+
+            <p className="text-neutral font-medium text-center  translate-y-[-100%] sm:translate-y-[-0%]  sm:mb-2 md:text-left">
               My passion for solving complex problems and creating innovative
               solutions drives me to stay up-to-date with the latest
               technologies and trends in the industry.

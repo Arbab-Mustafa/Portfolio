@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import Contact from "../Contact";
-import { Banner, Testimonial, Service } from "../../components";
+import { Banner, Service } from "../../components";
 
 const Home = () => {
   return (
@@ -9,8 +9,6 @@ const Home = () => {
       <Banner />
       <Service />
       <Project />
-      <Testimonial />
-
       <Contact />
     </div>
   );
