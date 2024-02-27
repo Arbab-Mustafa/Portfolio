@@ -10,6 +10,7 @@ import {
   sectionBodyAnimation,
 } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
+import { Helmet } from "react-helmet";
 
 const Project = () => {
   const [items, setItems] = useState(Items);
@@ -40,6 +41,33 @@ const Project = () => {
 
   return (
     <div className={`${location.pathname !== "/" && "pt-16"}`}>
+      <Helmet>
+        <title>Projects by Arbab Mustafa - Portfolio</title>
+        <meta
+          name="description"
+          content="Explore projects developed by Arbab Mustafa, a skilled Web Developer, Front End Developer, React JS Developer, Next.js Developer, and Node.js Developer. Check out Arbab's portfolio showcasing innovative and creative solutions in web development and technology."
+        />
+        <meta
+          name="keywords"
+          content="arbab mustafa, web developer, front end developer, react js developer, next.js developer, node.js developer, projects, portfolio, web development projects, innovative solutions, creative solutions, technology, showcase , arbab, mustafa arbab"
+        />
+
+        <meta name="author" content="Arbab Mustafa" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Arbab Mustafa - Home" />
+        <meta
+          property="og:description"
+          content="Welcome to Arbab Mustafa's portfolio website."
+        />
+        <meta
+          property="og:image"
+          content="https://www.arbabmustafa.com/images/og-image.jpg"
+        />
+        <meta property="og:url" content="https://www.arbabmustafa.com/" />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.arbabmustafa.com/projects" />
+      </Helmet>
       <div className="parent py-12">
         <motion.div
           initial="hidden"

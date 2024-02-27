@@ -20,6 +20,7 @@ import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -65,6 +66,33 @@ const Contact = () => {
   };
   return (
     <div className="parent py-24 mt-4">
+      <Helmet>
+        <title>Contact Arbab Mustafa - Portfolio</title>
+        <meta
+          name="description"
+          content="Contact Arbab Mustafa, a Software Engineering Student at UET Taxila from Pakistan, specializing in Web Development, Front End Development, React JS, Next.js, and Node.js. Get in touch with Arbab for inquiries, collaborations, or project opportunities."
+        />
+        <meta
+          name="keywords"
+          content="arbab mustafa, software engineering student, UET Taxila, pakistan, contact, web developer, front end developer, react js developer, next.js developer, node.js developer, inquiries, collaborations, project opportunities, arbab, mustafa arbab"
+        />
+
+        <meta name="author" content="Arbab Mustafa" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Arbab Mustafa - Home" />
+        <meta
+          property="og:description"
+          content="Welcome to Arbab Mustafa's portfolio website."
+        />
+        <meta
+          property="og:image"
+          content="https://www.arbabmustafa.com/images/og-image.jpg"
+        />
+        <meta property="og:url" content="https://www.arbabmustafa.com/" />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.arbabmustafa.com/contact" />
+      </Helmet>
       <motion.div
         initial="hidden"
         animate={viewDiv && "visible"}

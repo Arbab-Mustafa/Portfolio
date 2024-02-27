@@ -6,6 +6,7 @@ import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { BottomLine, MySkill, Education } from "../../components";
 import { FaDownload } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 const PdfUrl = "/Arbab-Mustafa_resume.pdf";
 
 const About = () => {
@@ -23,6 +24,33 @@ const About = () => {
   };
   return (
     <div className="parent pt-16 my-16">
+      <Helmet>
+        <title>About Arbab Mustafa - Portfolio</title>
+        <meta
+          name="description"
+          content="Learn more about Arbab Mustafa, a Software Engineering Student at UET Taxila from Pakistan, specializing in Web Development, Front End Development, React JS, Next.js, and Node.js. Discover Arbab's skills, experiences, and passion for technology."
+        />
+        <meta
+          name="keywords"
+          content="arbab mustafa, software engineering student, UET Taxila, pakistan, web developer, front end developer, react js developer, next.js developer, node.js developer, technology skills, experience, passion, about arbab mustafa, arbab, mustafa arbab"
+        />
+
+        <meta name="author" content="Arbab Mustafa" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Arbab Mustafa - Home" />
+        <meta
+          property="og:description"
+          content="Welcome to Arbab Mustafa's portfolio website."
+        />
+        <meta
+          property="og:image"
+          content="https://www.arbabmustafa.com/images/og-image.jpg"
+        />
+        <meta property="og:url" content="https://www.arbabmustafa.com/" />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.arbabmustafa.com/about" />
+      </Helmet>
       <div className="">
         <motion.div
           className="mb-10"
