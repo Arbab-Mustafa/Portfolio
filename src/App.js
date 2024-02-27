@@ -10,6 +10,7 @@ import {
 } from "./components";
 
 import Contact from "./pages/Contact";
+
 import About from "./pages/About";
 import { Analytics } from "@vercel/analytics/react";
 const Home = React.lazy(() => import("./pages/Home"));

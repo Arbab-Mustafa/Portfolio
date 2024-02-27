@@ -25,7 +25,7 @@ const About = () => {
   return (
     <div className="parent pt-16 my-16">
       <Helmet>
-        <title>About Arbab Mustafa - Portfolio</title>
+        <title>About Arbab Mustafa </title>
         <meta
           name="description"
           content="Learn more about Arbab Mustafa, a Software Engineering Student at UET Taxila from Pakistan, specializing in Web Development, Front End Development, React JS, Next.js, and Node.js. Discover Arbab's skills, experiences, and passion for technology."
@@ -37,7 +37,7 @@ const About = () => {
 
         <meta name="author" content="Arbab Mustafa" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Arbab Mustafa - Home" />
+        <meta property="og:title" content=" about-Arbab Mustafa " />
         <meta
           property="og:description"
           content="Welcome to Arbab Mustafa's portfolio website."

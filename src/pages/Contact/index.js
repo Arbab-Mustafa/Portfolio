@@ -67,7 +67,7 @@ const Contact = () => {
   return (
     <div className="parent py-24 mt-4">
       <Helmet>
-        <title>Contact Arbab Mustafa - Portfolio</title>
+        <title> Arbab Mustafa </title>
         <meta
           name="description"
           content="Contact Arbab Mustafa, a Software Engineering Student at UET Taxila from Pakistan, specializing in Web Development, Front End Development, React JS, Next.js, and Node.js. Get in touch with Arbab for inquiries, collaborations, or project opportunities."
