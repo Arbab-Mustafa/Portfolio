@@ -127,8 +127,6 @@ const About = () => {
               My passion for solving complex problems and creating innovative
               solutions drives me to stay up-to-date with the latest
               technologies and trends in the industry.
-              {/* My next mission is how to become a Mern stack Developer. I would
-              love to build some Giant Website which will shine myself. */}
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
