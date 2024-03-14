@@ -41,44 +41,51 @@ const Banner = () => {
         <h2 className="text-neutral text-xl font-medium translate-y-[-90%] sm:translate-y-[-0%]">
           Hello, I'm
         </h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">
+        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%] ">
           Arbab Mustafa
         </h1>
-        <div className="my-4">
+        <div className="my-8">
           <TypeAnimation
-            className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
+            className="text-2xl text-primary my-4    font-bold text-center translate-y-[-100%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
             cursor={true}
             sequence={[
-              "Software Engineering Student",
+              "Software Eng Student",
               3000,
-              "React  Developer",
+              "Node js Developer",
               3000,
-              "A Front-end web Developer",
+              "Next js Developer",
+              3000,
+              "React Developer",
+              2000,
+              "Frontend Developer",
               3000,
             ]}
             wrapper="div"
             repeat={Infinity}
           />
         </div>
-        <p className="text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]">
+        <p className="text-neutral max-w-xl sm:mt-4 mt-3 mb-6  font-medium translate-y-[-20%] sm:translate-y-[-0%]">
           As a Frontend React Developer, my dedication lies in crafting
           high-quality web applications that precisely meet the requirements of
           my clients. With 2 years of hands-on experience in web development, I
-          specialize in utilizing React.js, Next.js, TypeScript, and Node.js to
-          develop scalable and robust web solutions. My focus on delivering
-          excellence ensures that every project I undertake exceeds expectations
-          and achieves optimal results
+          specialize in utilizing React.js, Next.js, TypeScript, and Node.js
+          Mongo Db , Express and Mongoss to develop scalable and robust web
+          solutions. My focus on delivering excellence ensures that every
+          project I undertake exceeds expectations and achieves optimal results
         </p>
 
         <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
-          <button className="primary-button" onClick={handleDownload}>
+          <button
+            className="primary-button w-[50%] font-normal"
+            onClick={handleDownload}
+          >
             <span>Download Resume</span>
             <span>
               <FaDownload />
             </span>
           </button>
 
-          <Link to="/about" className="ml-4">
+          <Link to="/about" className="ml-4 w-[50%]">
             <SecondaryBtn>
               <span>About Me</span>
               <span>

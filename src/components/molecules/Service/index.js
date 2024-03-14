@@ -29,7 +29,7 @@ const Service = () => {
       title: "Front End Development",
       icon: <DiAtom />,
       description:
-        "As a Front-end developer, I would love to develope any front-end application using  Nextjs , React and its libraries.",
+        "As a Front-end developer, I would love to develope any front-end application using  Nextjs , React js  and its libraries.",
     },
     {
       id: 2,
@@ -40,10 +40,10 @@ const Service = () => {
     },
     {
       id: 3,
-      title: "Web Design",
+      title: "Web Design and Mantenance",
       icon: <BiPalette />,
       description:
-        "I also provide Fully Responsive Static Website Design with HTML, CSS, Bootstrap, Tailwind.",
+        "I also provide Fully Responsive Static Website Design with Next js , React js ,Node js , Mongo Db  HTML, CSS, Bootstrap, Tailwind,  Matrial Ui , Chakra",
     },
     {
       id: 4,

@@ -101,11 +101,15 @@ const About = () => {
                 className="text-2xl text-primary my-4    font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
                 cursor={true}
                 sequence={[
-                  "Software Enginnering Student",
+                  "Software Eng Student",
+                  3000,
+                  "Node js Developer",
+                  3000,
+                  "Next js Developer",
                   3000,
                   "React Developer",
                   2000,
-                  "A Front-end  web Developer",
+                  "Frontend web Dev",
                   3000,
                 ]}
                 wrapper="div"
@@ -117,10 +121,10 @@ const About = () => {
               high-quality web applications that precisely meet the requirements
               of my clients. With 2 years of hands-on experience in web
               development, I specialize in utilizing React.js, Next.js,
-              TypeScript, and Node.js to develop scalable and robust web
-              solutions. My focus on delivering excellence ensures that every
-              project I undertake exceeds expectations and achieves optimal
-              results
+              TypeScript, and Node.js, MongoDb , Express to develop scalable and
+              robust web solutions. My focus on delivering excellence ensures
+              that every project I undertake exceeds expectations and achieves
+              optimal results
             </p>
 
             <p className="text-neutral font-medium text-center  translate-y-[-100%] sm:translate-y-[-0%]  sm:mb-2 md:text-left">
