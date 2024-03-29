@@ -86,7 +86,7 @@ const Footer = () => {
           <p>
             Developed by{" "}
             <a
-              href="https://linkedin.com/in/gilberthutapea"
+              href="https://www.linkedin.com/in/arbabmustafa132/"
               className="text-primary hover:underline"
               target="blank"
             >
