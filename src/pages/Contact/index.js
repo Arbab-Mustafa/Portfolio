@@ -52,7 +52,7 @@ const Contact = () => {
           Swal.fire({
             position: "top-center",
             icon: "success",
-            title: "Your Message has been sent",
+            title: "Message has been sent  to Arbab Mustafa.",
             showConfirmButton: false,
             timer: 1500,
           });
