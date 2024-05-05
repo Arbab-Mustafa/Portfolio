@@ -103,6 +103,7 @@ const About = () => {
                 sequence={[
                   "Software Eng Student",
                   3000,
+<<<<<<< HEAD
                   "MERN Stack Developer",
                   3000,
                   "Next.js Developer",
@@ -110,6 +111,15 @@ const About = () => {
                   "Fullstack Developer",
                   2000,
                   "React Developer",
+=======
+                  "Node js Developer",
+                  3000,
+                  "Next js Developer",
+                  3000,
+                  "React Developer",
+                  2000,
+                  "Frontend web Dev",
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
                   3000,
                 ]}
                 wrapper="div"
@@ -117,6 +127,7 @@ const About = () => {
               />
             </div>
             <p className="text-neutral font-medium text-center  translate-y-[-60%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+<<<<<<< HEAD
               As an experienced MERN Stack Developer proficient in both frontend
               and backend development, I specialize in crafting high-performance
               web applications that meet industry standards. With 2+ years of
@@ -127,6 +138,23 @@ const About = () => {
               providing optimal results and exceptional user experiences.
             </p>
 
+=======
+              As a Frontend React Developer, my dedication lies in crafting
+              high-quality web applications that precisely meet the requirements
+              of my clients. With 2 years of hands-on experience in web
+              development, I specialize in utilizing React.js, Next.js,
+              TypeScript, and Node.js, MongoDb , Express to develop scalable and
+              robust web solutions. My focus on delivering excellence ensures
+              that every project I undertake exceeds expectations and achieves
+              optimal results
+            </p>
+
+            <p className="text-neutral font-medium text-center  translate-y-[-100%] sm:translate-y-[-0%]  sm:mb-2 md:text-left">
+              My passion for solving complex problems and creating innovative
+              solutions drives me to stay up-to-date with the latest
+              technologies and trends in the industry.
+            </p>
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Name : </span>

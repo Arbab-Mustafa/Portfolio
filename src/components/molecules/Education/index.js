@@ -32,14 +32,24 @@ const Education = () => {
           <div className="p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg inline-block w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
+<<<<<<< HEAD
                 Software Eng Student
+=======
+                Software Engineering Student
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
               </h3>
               <p className="text-sm text-neutral font-semibold">2022 - 2026</p>
             </div>
             <p className="text-sm text-neutral text-justify">
+<<<<<<< HEAD
               I am presently enrolled in the Bachelor's program for Software
               Engineering at the University of Engineering and Technology
               Taxila, Pakistan (UET Taxila)
+=======
+              I am currently pursuing my Bachelor's degree in Software
+              Engineering from the University of Engineering and Technology
+              Taxila, Pakistan (UET Taxila) .
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
             </p>
           </div>
 
@@ -47,13 +57,22 @@ const Education = () => {
           <div className="my-6 md:my-4 md:ml-[200px] p-6 bg-[#313131] bg-opacity-90 backdrop-blur-lg rounded-lg shadow-lg w-[300px] hover:shadow-primary duration-300 cursor-pointer">
             <div className="text-right mb-4">
               <h3 className="text-2xl font-semibold text-primary">
+<<<<<<< HEAD
                 MERN Stack Developer
+=======
+                React Developer
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
               </h3>
               <p className="text-sm text-neutral font-semibold">2023</p>
             </div>
             <p className="text-sm text-neutral text-justify">
+<<<<<<< HEAD
               I have successfully completed the
               <b>FullStack Developer Expert program</b> from Udemy.
+=======
+              I have successfully completed the{" "}
+              <b>React Web Developer Expert</b> from Udemy.
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
             </p>
           </div>
         </div>

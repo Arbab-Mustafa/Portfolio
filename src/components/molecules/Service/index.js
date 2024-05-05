@@ -25,6 +25,7 @@ const Service = () => {
 
   const services = [
     {
+<<<<<<< HEAD
       id: 2,
       title: "MERN Stack Development",
       icon: <FiServer />,
@@ -32,12 +33,15 @@ const Service = () => {
         "I excel in Node.js, Express.js, and MongoDB/Mongoose, facilitating seamless development of full-stack applications within the MERN environment",
     },
     {
+=======
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
       id: 1,
       title: "Front End Development",
       icon: <DiAtom />,
       description:
         "As a Front-end developer, I would love to develope any front-end application using  Nextjs , React js  and its libraries.",
     },
+<<<<<<< HEAD
 
     {
       id: 3,
@@ -59,6 +63,28 @@ const Service = () => {
       icon: <BiPalette />,
       description:
         "Crafting flexible layouts for optimal viewing across all devices",
+=======
+    {
+      id: 2,
+      title: "MERN Development",
+      icon: <FiServer />,
+      description:
+        "I am very familiar with NodeJS, Express JS, and MongoDB/Mongoose. So I can build full-stack application with MERN.",
+    },
+    {
+      id: 3,
+      title: "Web Design and Mantenance",
+      icon: <BiPalette />,
+      description:
+        "I also provide Fully Responsive Static Website Design with Next js , React js ,Node js , Mongo Db  HTML, CSS, Bootstrap, Tailwind,  Matrial Ui , Chakra",
+    },
+    {
+      id: 4,
+      title: "Web Management",
+      icon: <FiServer />,
+      description:
+        "I will manage any kinds of website. Data Management, Component management, Bug Fixes and  Service management and so on.",
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
     },
   ];
   return (

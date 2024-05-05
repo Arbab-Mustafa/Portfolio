@@ -51,6 +51,7 @@ const Banner = () => {
             sequence={[
               "Software Eng Student",
               3000,
+<<<<<<< HEAD
               "MERN Stack Developer",
               3000,
               "Next.js Developer",
@@ -58,6 +59,15 @@ const Banner = () => {
               "Fullstack Developer",
               2000,
               "React Developer",
+=======
+              "Node js Developer",
+              3000,
+              "Next js Developer",
+              3000,
+              "React Developer",
+              2000,
+              "Frontend Developer",
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
               3000,
             ]}
             wrapper="div"
@@ -65,6 +75,7 @@ const Banner = () => {
           />
         </div>
         <p className="text-neutral max-w-xl sm:mt-4 mt-3 mb-6  font-medium translate-y-[-20%] sm:translate-y-[-0%]">
+<<<<<<< HEAD
           As an experienced MERN Stack Developer proficient in both frontend and
           backend development, I specialize in crafting high-performance web
           applications that meet industry standards. With 2+ years of proven
@@ -75,6 +86,15 @@ const Banner = () => {
           results and exceptional user experiences. With a deep understanding of
           frontend and backend intricacies, I drive innovation and overcome
           complex challenges in today's dynamic business landscape.
+=======
+          As a Frontend React Developer, my dedication lies in crafting
+          high-quality web applications that precisely meet the requirements of
+          my clients. With 2 years of hands-on experience in web development, I
+          specialize in utilizing React.js, Next.js, TypeScript, and Node.js
+          Mongo Db , Express and Mongoss to develop scalable and robust web
+          solutions. My focus on delivering excellence ensures that every
+          project I undertake exceeds expectations and achieves optimal results
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
         </p>
 
         <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">

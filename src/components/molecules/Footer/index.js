@@ -70,6 +70,17 @@ const Footer = () => {
           >
             RemoteHub
           </a>
+<<<<<<< HEAD
+=======
+          <a
+            className="text-xl inline-bloc mx-6 text-neutral"
+            href="https://dribbble.com/Arbab_Mustafa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dribbble
+          </a>
+>>>>>>> c4fa6f67665d56ca258f432c3f7e01d2c119f542
         </div>
 
         <div className="w-full h-[2px] bg-gray-600"></div>
